@@ -47,6 +47,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo__imagens {
@@ -128,4 +129,28 @@ body{
     font-family: var(--font-secundaria);
     font-weight: 400;
     font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 19%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .apresentacao__conteudo__imagens {
+        width: auto;
+    }
+
 }
