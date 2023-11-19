@@ -49,20 +49,27 @@ body{
     justify-content: space-between;
 }
 
+.apresentacao__conteudo__imagens {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 11em;
+}
+
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2rem;
     font-family: var(--font-primaria);
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
 }
 
@@ -88,7 +95,7 @@ body{
 }
 
 .apresentacao__subtitulo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--font-secundaria);
 }
@@ -97,10 +104,10 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -120,5 +127,5 @@ body{
     text-align: center;
     font-family: var(--font-secundaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
