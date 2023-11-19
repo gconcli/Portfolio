@@ -2,7 +2,7 @@
 
 # Portfólio Olá, Bem vindo ao meu projeto de portfólio.
 
-![image]()
+![image](files C:\Users\gabic\OneDrive\Área de Trabalho\Portfolio\asssets\demo.png)
 
 ## Ferramentas utilizadas:
 
@@ -16,6 +16,6 @@
 
 ### Joana Santos
 
-### Linkedin: https://www.linkedin.com/school/aluracursos/
+### Linkedin: https://linkedin.com/in/gconcli/
 
 ```
